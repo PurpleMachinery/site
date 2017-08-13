@@ -1,0 +1,345 @@
+*{
+	font-family: DIN Pro,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: white;	
+}
+
+#logo{
+	padding-top: 1%;
+	background-color: #181818;	
+	border: 1px hidden #181818;
+	width:auto;
+	height:auto;
+}
+
+#menu{
+	background-color: #181818;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#menu ul{
+	background-color: #181818;
+	width:auto;
+	text-align:center;
+}
+
+#menu ul li{
+	background-color: #181818;
+	display:inline;
+}
+
+#menu ul li a{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 2% 3% 1% 3%;
+	border-bottom: 4px solid #181818;
+	background-color: #181818;
+	color: #F0F0FA;
+	text-decoration: none;	
+	-webkit-transition: 0.3s linear; 
+	-moz-transition: 0.3s linear; 
+	-o-transition: 0.3s linear;
+}
+
+.botao{
+	list-style: none;
+}
+
+.botao a{
+	border-radius: 5px;
+	padding-top: 2%;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 2% 3% 2% 3%;
+	color: #FFFFFF;
+	text-decoration: none;	
+}
+.botao a:hover{
+	color: #F00;
+	-webkit-transition: 0.1s ease; 
+	-moz-transition: 0.1s ease; 
+	-o-transition: 0.1s ease;
+	border: 4px solid #f00;
+	
+}
+
+#menu ul li a:hover{
+	border-bottom-color: #F00;	
+	-webkit-transition: 0.3s linear; 
+	-moz-transition: 0.3s linear; 
+	-o-transition: 0.3s linear;
+}
+
+#inicial{
+	min-height: 85%;
+	display: table;
+	color: #000000;
+	background-color: #fff;
+	width: 60%;
+	margin: auto;
+	text-align:center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align:justify;
+}
+
+#inicial img{
+	margin-top: 1%;
+}
+
+#caixa{
+	display: table;
+	color: #000000;
+	background-color: #fff;
+	width: 80%;
+	margin: auto;
+	text-align:center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align:justify;
+}
+
+/*#caixa div a{
+		text-decoration: none;
+}*/
+
+.link{
+	text-decoration: none;
+	color: #181818;
+	font-size: 12px;
+}
+
+.link p:hover, img:hover{
+	color: #f00;
+	border-color: #f00;
+}
+
+.livro1 img, .livro img{
+	border: 1px solid #181818;
+}
+
+.livro1 img:hover, .livro img:hover{
+	border: 1px solid #F00;
+}
+
+.livro1{
+	min-width: 174px;
+	min-height: 270px;
+	width:20%;
+	margin-left: 10%;
+	margin-top: 2%;
+	margin-bottom: 4%;
+	display: inline-block;
+	text-align: center;
+}
+
+.livro{
+	min-width: 174px;
+	min-height: 280px;
+	width: 20%;
+	margin-top: 2%;
+	margin-bottom: 4%;
+	display: inline-block;
+	text-align: center;
+}
+
+.livro1 a, .livro a{ 
+	padding-right: 10%;
+	text-decoration: none;
+	color: #181818;
+	font-size: 12px;
+	text-align: center;
+}
+
+.livro1 a:hover{
+	color: #F00;
+}
+
+#rodape{
+	clear: both;
+	background-color: #181818;
+	width:auto;
+	height:auto;
+	padding: 2% 3% 2% 3%;
+}
+
+p, h1, h2, h3{
+	color: #000; /* Margem das letras */
+	margin: 0 auto;
+}
+
+h1{
+	font-size: 2.375rem;
+    line-height: 2.625rem;
+	margin: 0;
+	font-weight: 800;
+}
+
+h2{
+	box-sizing: border-box;
+	color: #8c8c96;
+	font-weight: 600;
+    margin-top: 0;
+    display: block;
+    font-size: 1rem;
+}
+
+h3{
+	color: #F0F0Fa;
+	font-size: 14px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;	
+}
+
+h4{
+	color: #333;
+	font-size: 14px;
+	font-weight: 1px;
+}
+
+p{    
+	font-size: 1.3125rem;
+    line-height: 2.0625rem;	
+}
+
+.publi{
+	margin-left: 13%;
+	display: inline;
+}
+
+#local{
+	margin-bottom: 1%;	
+}
+
+#local a, #local p{
+	text-decoration: none;
+	display: inline;
+	font-size: 12px;
+}
+
+#local a{
+	color: #F00;	
+}
+
+#local p{
+	color: #181818;
+}
+
+/*.sinopse{
+	border: 1px solid red;
+}*/
+
+.sinopse img{
+	margin-right: 1%;
+	float: left;
+	border: 1px solid #181818;
+}
+
+.sinopse img:hover{
+	border-color: #f00;
+}
+
+.sinopse p{
+	padding-right: 5%;
+	text-align: justify;
+	font-size: 17px;
+	color: #505050;
+}
+
+.nota{
+	color: #F00;
+	display: inline;
+}
+
+.veredito{
+	background-color:#181818;
+	padding-left: 1%;
+	border: 1px solid black;
+	margin-right: 60%;
+	border-radius: 10px;
+}
+
+.sizemore{
+	font-size: 30px;
+}
+
+#login form p{
+	color: #f00;
+}
+
+#login{
+	min-height: 400px;
+	min-width: 150px;
+	margin-left: 30%;
+	width: 20%;
+	height: 50%;
+	padding-top: 6%;
+	text-align: center;
+	margin-top: 6%;
+	margin-bottom: 6%;
+	border: 3px solid #f00;
+	background-color: #181818;
+	border-right: none;
+	float: left;
+}
+
+#create form p{
+	color: #f00;
+}
+
+#create{
+	min-width: 150px;
+	min-height: 400px;
+	width: 20%;
+	height: 50%;
+	padding-top: 6%;
+	text-align: center;
+	margin-top: 6%;
+	margin-bottom: 6%;
+	border: 3px solid #f00;
+	background-color: #181818;
+	border-left: none;
+	float: left;
+}
+
+.labels label{
+	font-size: 20px;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	color: #f00;
+	display: block;
+}
+
+.botano{
+    text-align: center;
+	min-width: 75px;
+	border: 3px solid #f00;
+	width: 30%;
+	height: 10%;
+	background-color: black;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #F00;
+}
+
+input{
+	text-align: center;
+	border: none;
+	color: white;
+	min-height: 5%;
+	min-width: 50%;
+	border: 1px solid red;
+	background-color: black;
+}
+
+input:focus{  
+	outline: none;
+	background-color: black;
+}
